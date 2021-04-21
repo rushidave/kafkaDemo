@@ -7,8 +7,8 @@ Prereq:
 
 To run:
   1) Edit server.properties file located inside `kafka_2.13-2.7.0/config`:
-      add line/uncomment -> `advertised.listeners=PLAINTEXT://localhost:9092`
-      add line/uncomment -> `zookeeper.connect=localhost:2181`
+      - add line/uncomment -> `advertised.listeners=PLAINTEXT://localhost:9092`
+      - add line/uncomment -> `zookeeper.connect=localhost:2181`
      
   2) To start zookeeper run the following command in terminal: `bin/zookeeper-server-start.sh config/zookeeper.properties`
  
