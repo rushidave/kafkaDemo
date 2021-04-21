@@ -13,9 +13,9 @@ To run:
  
   3) JMX_PORT=8004 bin/kafka-server-start.sh config/server.properties  
 
-  4) Run python3 producer.py
+  4) Run `python3 producer.py`
   
-  5) Run python3 consumer.py
+  5) Run `python3 consumer.py`
  
  
 
