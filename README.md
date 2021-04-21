@@ -3,6 +3,7 @@
 ### Prereq:
   1) Install Kafka
   2) Install Zookeeper
+  3) PGAdmin GUI for PostgreSQL
 
 ### Install:
   1) `pip install --user --requirement requirements.txt`
