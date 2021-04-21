@@ -4,12 +4,12 @@
   1) Install Kafka
   2) Install Zookeeper
 
-### Install
+### Install:
   1) `pip install --user --requirement requirements.txt`
   2) Create Kafka Topic t1 using: `$ bin/kafka-topics.sh --create --topic t1 --bootstrap-server localhost:9092`
   3) Check if the topic is created using: `$ bin/kafka-topics.sh --bootstrap-server localhost:9092 --list`
 
-### To run:
+### How To run:
   
   1) Edit server.properties file located inside `kafka_2.13-2.7.0/config`:
       - add line/uncomment -> `advertised.listeners=PLAINTEXT://localhost:9092`
