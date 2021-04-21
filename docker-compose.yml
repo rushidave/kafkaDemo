@@ -1,0 +1,55 @@
+version: '3'
+
+networks:
+  sb:
+    driver: bridge
+
+services:
+  zookeeper:
+    image: zookeeper
+    container_name: zookeeper
+    hostname: zookeeper
+    restart: always
+    ports:
+      - 2181:2181
+    environment:
+      ZOO_MY_ID: 1
+  kafka:
+    image: wurstmeister/kafka
+    container_name: kafka
+    ports: 
+      - "9092:9092"
+      # - "9093:9093"
+    # hostname: kafka
+    environment: 
+      KAFKA_ADVERTISED_HOST_NAME: kafka
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:218
+      HOSTNAME_COMMAND:  "route -n | awk '/UG[ \t]/{print $$2}'"
+      KAFKA_ADVERTISED_PORT: 9092
+      # KAFKA_LISTENERS: INTERNAL://:9092,EXTERNAL://:9093
+      # KAFKA_ADVERTISED_LISTENERS: INTERNAL://:9092,EXTERNAL://:9093
+      # KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      # KAFKA_LISTENERS: PLAINTEXT://:9092
+      # KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      # KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      # KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      # KAFKA_JMX_OPTS: "-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=kafka -Dcom.sun.management.jmxremote.rmi.port=1099"
+      KAFKA_JMX_OPTS: "-Djava.rmi.server.hostname=kafka 
+      -Dcom.sun.management.jmxremote.local.only=false 
+      -Dcom.sun.management.jmxremote.rmi.port=9999 
+      -Dcom.sun.management.jmxremote.port=9999 
+      -Dcom.sun.management.jmxremote.authenticate=false 
+      -Dcom.sun.management.jmxremote.ssl=false"
+      KAFKA_JMX_PORT: 1099
+      
+  kafka_manager:
+    image: hlebalbau/kafka-manager
+    container_name: kafka-manager
+    restart: always
+    ports:
+      - "9000:9000"
+    environment:
+      ZK_HOSTS: "zookeeper:2181"
+      APPLICATION_SECRET: "random-secret"
+    command: -Dpidfile.path=/dev/null
+
