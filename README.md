@@ -23,6 +23,7 @@ To run:
   
   5) Run `python3 consumer.py`
  
-#Comments 
+## Comments 
 
-I tried using Docker, however, docker results into messages not being sent to Kafka Topic. 
+- I tried using Docker, however, docker results into messages not being sent to Kafka Topic. 
+- Can use kafka Manager for graphical user interface to manage everything kafka related
