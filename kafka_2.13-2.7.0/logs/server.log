@@ -1,215 +1,880 @@
-[2021-04-21 10:02:01,463] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-adbb7731-dcd0-40ec-9f68-a44622616085 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:01,468] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 16 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-adbb7731-dcd0-40ec-9f68-a44622616085 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:04,505] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-ba42926c-77df-4fd5-8ce2-8498c6415e47 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:04,506] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 17 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:04,509] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 17 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:14,512] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-adbb7731-dcd0-40ec-9f68-a44622616085 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:14,512] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 17 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-adbb7731-dcd0-40ec-9f68-a44622616085 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:14,512] INFO [GroupCoordinator 0]: Group test-1 with generation 18 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:53,959] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-5b9df098-9512-4fb9-876e-44e75b5da3fe for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:53,960] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 18 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-5b9df098-9512-4fb9-876e-44e75b5da3fe with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:53,960] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 19 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:02:53,962] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 19 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:03:03,964] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-5b9df098-9512-4fb9-876e-44e75b5da3fe in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:03:03,965] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 19 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-5b9df098-9512-4fb9-876e-44e75b5da3fe on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:03:03,965] INFO [GroupCoordinator 0]: Group test-1 with generation 20 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:03:53,445] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-0f8074d4-3838-4a9f-8e97-fc6ec37efbee for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:03:53,447] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 20 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-0f8074d4-3838-4a9f-8e97-fc6ec37efbee with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:03:53,447] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 21 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:03:53,449] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 21 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:04:03,451] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-0f8074d4-3838-4a9f-8e97-fc6ec37efbee in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:04:03,451] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 21 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-0f8074d4-3838-4a9f-8e97-fc6ec37efbee on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:04:03,451] INFO [GroupCoordinator 0]: Group test-1 with generation 22 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:06:36,100] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-a9c7940e-113f-4934-8750-7f65a1defc4e for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:06:36,102] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 22 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-a9c7940e-113f-4934-8750-7f65a1defc4e with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:06:36,102] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 23 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:06:36,104] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 23 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:07:15,291] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-d847e9b4-8bd1-4b2d-91d8-ab2a300bb4bd for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:07:15,291] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 23 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-d847e9b4-8bd1-4b2d-91d8-ab2a300bb4bd with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:07:19,148] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-a9c7940e-113f-4934-8750-7f65a1defc4e in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:07:19,149] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 24 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:07:19,152] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 24 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:04,172] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-d847e9b4-8bd1-4b2d-91d8-ab2a300bb4bd in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:04,173] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 24 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-d847e9b4-8bd1-4b2d-91d8-ab2a300bb4bd on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:04,173] INFO [GroupCoordinator 0]: Group test-1 with generation 25 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:23,402] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-5f4e91d8-be57-4089-ab15-0d68b7d59a65 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:23,402] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 25 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-5f4e91d8-be57-4089-ab15-0d68b7d59a65 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:23,403] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 26 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:23,405] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 26 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:36,413] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-5f4e91d8-be57-4089-ab15-0d68b7d59a65 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:36,413] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 26 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-5f4e91d8-be57-4089-ab15-0d68b7d59a65 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:36,413] INFO [GroupCoordinator 0]: Group test-1 with generation 27 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:47,421] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-feee14d4-b9a9-41d0-827f-f64cbd516f49 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:47,422] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 27 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-feee14d4-b9a9-41d0-827f-f64cbd516f49 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:47,422] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 28 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:47,424] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 28 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:59,069] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-84995617-3365-422a-8101-36639c00c235 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:08:59,069] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 28 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-84995617-3365-422a-8101-36639c00c235 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:09:03,442] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-feee14d4-b9a9-41d0-827f-f64cbd516f49 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:09:03,443] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 29 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:09:03,444] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 29 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:11:18,129] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-33814273-f754-489a-b671-7188bed67eda for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:11:18,129] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 29 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-33814273-f754-489a-b671-7188bed67eda with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:11:22,567] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-84995617-3365-422a-8101-36639c00c235 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:11:22,568] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 30 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:11:22,571] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 30 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:21,505] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-a9b7f279-2385-4aba-96c6-47bffb207e18 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:21,505] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 30 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-a9b7f279-2385-4aba-96c6-47bffb207e18 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:23,748] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-33814273-f754-489a-b671-7188bed67eda in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:23,749] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 31 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:23,751] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 31 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:46,618] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-1d899841-ea4e-4c79-9566-e00bba38bf02 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:46,618] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 31 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-1d899841-ea4e-4c79-9566-e00bba38bf02 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:51,773] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-a9b7f279-2385-4aba-96c6-47bffb207e18 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:51,774] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 32 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:14:51,777] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 32 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:16:33,881] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-44083105-149c-435e-a8a5-966ceb6b7c8e for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:16:33,882] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 32 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-44083105-149c-435e-a8a5-966ceb6b7c8e with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:16:37,884] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-1d899841-ea4e-4c79-9566-e00bba38bf02 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:16:37,885] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 33 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:16:37,887] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 33 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:16,728] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-b1c533dd-ba87-4e52-85f1-5d89fdb54aba for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:16,729] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 33 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-b1c533dd-ba87-4e52-85f1-5d89fdb54aba with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:22,990] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-44083105-149c-435e-a8a5-966ceb6b7c8e in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:22,990] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 34 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:22,991] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 34 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:55,177] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-7206905d-f78d-4d70-9afe-b9b6f0469bb4 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:55,177] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 34 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-7206905d-f78d-4d70-9afe-b9b6f0469bb4 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:58,013] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-b1c533dd-ba87-4e52-85f1-5d89fdb54aba in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:58,013] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 35 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:19:58,016] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 35 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:20:39,472] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-3e2ac06f-93b7-4e4c-b563-13cfba4dbd0c for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:20:39,472] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 35 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-3e2ac06f-93b7-4e4c-b563-13cfba4dbd0c with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:20:44,048] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-7206905d-f78d-4d70-9afe-b9b6f0469bb4 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:20:44,049] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 36 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:20:44,051] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 36 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:20:54,053] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-3e2ac06f-93b7-4e4c-b563-13cfba4dbd0c in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:20:54,054] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 36 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-3e2ac06f-93b7-4e4c-b563-13cfba4dbd0c on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:20:54,054] INFO [GroupCoordinator 0]: Group test-1 with generation 37 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:21:57,038] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-3c400a9e-39c9-4bf3-bb59-9b35d340ceb0 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:21:57,039] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 37 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-3c400a9e-39c9-4bf3-bb59-9b35d340ceb0 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:21:57,039] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 38 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:21:57,041] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 38 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:22:07,424] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-9c270558-4696-49d4-ae08-4becac061512 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:22:07,431] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 38 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-9c270558-4696-49d4-ae08-4becac061512 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:22:10,047] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-3c400a9e-39c9-4bf3-bb59-9b35d340ceb0 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:22:10,047] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 39 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:22:10,048] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 39 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:23:22,876] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-a5605f90-ac25-477a-be40-a0e7b41111f8 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:23:22,877] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 39 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-a5605f90-ac25-477a-be40-a0e7b41111f8 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:23:26,112] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-9c270558-4696-49d4-ae08-4becac061512 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:23:26,112] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 40 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:23:26,114] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 40 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:23:57,590] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-10c6f204-d8f5-44df-897e-b99c9c7c5114 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:23:57,591] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 40 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-10c6f204-d8f5-44df-897e-b99c9c7c5114 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:24:01,128] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-a5605f90-ac25-477a-be40-a0e7b41111f8 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:24:01,129] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 41 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:24:01,130] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 41 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:24:55,717] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-49fd6ba9-d359-4bde-9799-b86ee4c98dc4 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:24:55,718] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 41 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-49fd6ba9-d359-4bde-9799-b86ee4c98dc4 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:24:59,170] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-10c6f204-d8f5-44df-897e-b99c9c7c5114 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:24:59,171] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 42 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:24:59,174] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 42 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:28:24,578] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-59792818-d896-46b0-a98b-fb753f57bf83 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:28:24,580] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 42 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-59792818-d896-46b0-a98b-fb753f57bf83 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:28:29,307] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-49fd6ba9-d359-4bde-9799-b86ee4c98dc4 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:28:29,308] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 43 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:28:29,309] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 43 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:28:39,310] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-59792818-d896-46b0-a98b-fb753f57bf83 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:28:39,311] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 43 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-59792818-d896-46b0-a98b-fb753f57bf83 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:28:39,311] INFO [GroupCoordinator 0]: Group test-1 with generation 44 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:04,648] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-7774c11a-6b68-41a8-8d00-aa278e5f1400 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:04,648] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 44 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-7774c11a-6b68-41a8-8d00-aa278e5f1400 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:04,649] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 45 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:04,650] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 45 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:07,475] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-4384a4dd-0ed1-444d-94cf-50078fc9ac19 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:07,475] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 45 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-4384a4dd-0ed1-444d-94cf-50078fc9ac19 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:14,665] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-7774c11a-6b68-41a8-8d00-aa278e5f1400 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:14,666] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 46 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:14,668] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 46 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:24,676] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-4384a4dd-0ed1-444d-94cf-50078fc9ac19 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:24,676] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 46 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-4384a4dd-0ed1-444d-94cf-50078fc9ac19 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:24,676] INFO [GroupCoordinator 0]: Group test-1 with generation 47 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:54,030] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-7213e063-2eec-42d8-ae63-f961721cb2ec for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:54,031] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 47 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-7213e063-2eec-42d8-ae63-f961721cb2ec with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:54,031] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 48 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:29:54,032] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 48 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:30:06,297] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-36ef2af1-3a3a-42fe-8224-0c86270fb1eb for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:30:06,298] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 48 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-36ef2af1-3a3a-42fe-8224-0c86270fb1eb with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:30:10,046] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-7213e063-2eec-42d8-ae63-f961721cb2ec in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:30:10,046] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 49 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:30:10,048] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 49 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:35:55,430] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-412ab861-9960-4163-8254-7ee6e30dc047 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:35:55,432] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 49 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-412ab861-9960-4163-8254-7ee6e30dc047 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:35:56,396] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-36ef2af1-3a3a-42fe-8224-0c86270fb1eb in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:35:56,397] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 50 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:35:56,399] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 50 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:36:09,406] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-412ab861-9960-4163-8254-7ee6e30dc047 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:36:09,407] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 50 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-412ab861-9960-4163-8254-7ee6e30dc047 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:36:09,407] INFO [GroupCoordinator 0]: Group test-1 with generation 51 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:05,735] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-a0fc402e-07d0-4d13-acd6-a4023f2740cf for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:05,736] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 51 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-a0fc402e-07d0-4d13-acd6-a4023f2740cf with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:05,737] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 52 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:05,741] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 52 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:11,480] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-7af16a9a-c484-462a-9895-1c94e926ed98 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:11,481] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 52 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-7af16a9a-c484-462a-9895-1c94e926ed98 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:15,747] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-a0fc402e-07d0-4d13-acd6-a4023f2740cf in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:15,748] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 53 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:15,750] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 53 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:25,753] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-7af16a9a-c484-462a-9895-1c94e926ed98 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:25,753] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 53 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-7af16a9a-c484-462a-9895-1c94e926ed98 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:39:25,753] INFO [GroupCoordinator 0]: Group test-1 with generation 54 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:40:20,411] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-cf20ad56-36e0-4d11-93ab-7672b600ec1d for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:40:20,411] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 54 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-cf20ad56-36e0-4d11-93ab-7672b600ec1d with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:40:20,412] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 55 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:40:20,414] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 55 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:43:45,237] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-60e2262b-3ede-4a1e-9b90-f586b45f9634 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:43:45,238] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 55 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-60e2262b-3ede-4a1e-9b90-f586b45f9634 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:43:45,604] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-cf20ad56-36e0-4d11-93ab-7672b600ec1d in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:43:45,605] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 56 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:43:45,607] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 56 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:45:46,755] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-60e2262b-3ede-4a1e-9b90-f586b45f9634 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:45:46,755] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 56 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-60e2262b-3ede-4a1e-9b90-f586b45f9634 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:45:46,755] INFO [GroupCoordinator 0]: Group test-1 with generation 57 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:45:47,875] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-05424468-ef0a-449a-87ff-177be4134904 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:45:47,875] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 57 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-05424468-ef0a-449a-87ff-177be4134904 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:45:47,876] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 58 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:45:47,878] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 58 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:46:54,939] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-05424468-ef0a-449a-87ff-177be4134904 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:46:54,939] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 58 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-05424468-ef0a-449a-87ff-177be4134904 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:46:54,940] INFO [GroupCoordinator 0]: Group test-1 with generation 59 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:50:53,765] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-f76f3190-3255-4b00-a0d8-193aa61afc69 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:50:53,765] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 59 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-f76f3190-3255-4b00-a0d8-193aa61afc69 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:50:53,765] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 60 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:50:53,767] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 60 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:52:23,808] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-f76f3190-3255-4b00-a0d8-193aa61afc69 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:52:23,809] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 60 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-f76f3190-3255-4b00-a0d8-193aa61afc69 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:52:23,809] INFO [GroupCoordinator 0]: Group test-1 with generation 61 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:52:46,404] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-2e8d3e38-4eb6-451d-aae1-06d37c2c923e for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:52:46,405] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 61 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-2e8d3e38-4eb6-451d-aae1-06d37c2c923e with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:52:46,406] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 62 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:52:46,408] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 62 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:54:57,500] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-cf404d53-d5ea-4c79-a808-84b16c253d95 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:54:57,501] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 62 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-cf404d53-d5ea-4c79-a808-84b16c253d95 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:55:01,484] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-2e8d3e38-4eb6-451d-aae1-06d37c2c923e in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:55:01,485] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 63 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:55:01,487] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 63 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:55:11,489] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-cf404d53-d5ea-4c79-a808-84b16c253d95 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:55:11,490] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 63 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-cf404d53-d5ea-4c79-a808-84b16c253d95 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:55:11,490] INFO [GroupCoordinator 0]: Group test-1 with generation 64 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:58:15,212] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-f707af56-3f7c-4a6b-8b55-2a966fac2ff6 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:58:15,212] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 64 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-f707af56-3f7c-4a6b-8b55-2a966fac2ff6 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:58:15,213] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 65 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:58:15,215] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 65 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:58:25,217] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-f707af56-3f7c-4a6b-8b55-2a966fac2ff6 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:58:25,217] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 65 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-f707af56-3f7c-4a6b-8b55-2a966fac2ff6 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:58:25,217] INFO [GroupCoordinator 0]: Group test-1 with generation 66 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:02,577] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-6b9a280d-1982-49ff-be47-b2d6fb0b55f0 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:02,577] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 66 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-6b9a280d-1982-49ff-be47-b2d6fb0b55f0 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:02,578] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 67 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:02,580] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 67 (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:22,630] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-7fadd126-d785-4aca-8c54-57800c96a85f for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:22,631] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 67 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-7fadd126-d785-4aca-8c54-57800c96a85f with group instance id None) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:24,593] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-6b9a280d-1982-49ff-be47-b2d6fb0b55f0 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:24,594] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 68 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
-[2021-04-21 10:59:24,596] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 68 (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:43:35,052] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-04-21 15:43:35,054] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-04-21 15:43:35,059] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-04-21 15:43:35,059] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-04-21 15:43:35,061] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-04-21 15:43:35,062] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-04-21 15:43:35,062] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-04-21 15:43:35,062] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2021-04-21 15:43:35,065] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2021-04-21 15:43:35,078] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-04-21 15:43:35,079] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-04-21 15:43:35,079] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-04-21 15:43:35,079] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-04-21 15:43:35,079] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2021-04-21 15:43:35,081] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-04-21 15:43:35,095] INFO Server environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,095] INFO Server environment:host.name=10.0.0.29 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,095] INFO Server environment:java.version=14.0.2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,095] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,095] INFO Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,096] INFO Server environment:java.class.path=/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/activation-1.1.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/aopalliance-repackaged-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/argparse4j-0.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/audience-annotations-0.5.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/commons-cli-1.4.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/commons-lang3-3.8.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-api-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-basic-auth-extension-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-file-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-json-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-mirror-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-mirror-client-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-runtime-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-transforms-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/hk2-api-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/hk2-locator-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/hk2-utils-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-annotations-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-core-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-databind-2.10.5.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-dataformat-csv-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-datatype-jdk8-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-jaxrs-base-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-jaxrs-json-provider-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-module-jaxb-annotations-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-module-paranamer-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-module-scala_2.13-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.annotation-api-1.3.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.inject-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.validation-api-2.0.2.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.ws.rs-api-2.1.6.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/javassist-3.25.0-GA.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/javassist-3.26.0-GA.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/javax.servlet-api-3.1.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jaxb-api-2.3.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-client-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-common-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-container-servlet-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-container-servlet-core-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-hk2-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-media-jaxb-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-server-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-client-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-continuation-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-http-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-io-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-security-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-server-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-servlet-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-servlets-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-util-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jopt-simple-5.0.4.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-clients-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-log4j-appender-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-raft-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-streams-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-streams-examples-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-streams-scala_2.13-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-streams-test-utils-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-tools-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka_2.13-2.7.0-sources.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka_2.13-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/log4j-1.2.17.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/lz4-java-1.7.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/maven-artifact-3.6.3.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/metrics-core-2.2.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-buffer-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-codec-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-common-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-handler-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-resolver-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-transport-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-transport-native-epoll-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-transport-native-unix-common-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/osgi-resource-locator-1.0.3.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/paranamer-2.8.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/plexus-utils-3.2.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/reflections-0.9.12.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/rocksdbjni-5.18.4.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-collection-compat_2.13-2.2.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-library-2.13.3.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-reflect-2.13.3.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/slf4j-api-1.7.30.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/snappy-java-1.1.7.7.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/zookeeper-3.5.8.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/zookeeper-jute-3.5.8.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/zstd-jni-1.4.5-6.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,096] INFO Server environment:java.library.path=/Users/rushi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,096] INFO Server environment:java.io.tmpdir=/var/folders/r6/hm5t3s1j75d9ymxk0kd36hjm0000gn/T/ (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,096] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:os.name=Mac OS X (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:os.arch=x86_64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:os.version=10.15.5 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:user.name=rushi (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:user.home=/Users/rushi (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:user.dir=/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,097] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,099] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,099] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,100] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-04-21 15:43:35,124] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2021-04-21 15:43:35,129] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-04-21 15:43:35,137] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-04-21 15:43:35,150] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2021-04-21 15:43:35,152] INFO Reading snapshot /tmp/zookeeper/version-2/snapshot.1e (org.apache.zookeeper.server.persistence.FileSnap)
+[2021-04-21 15:43:35,181] INFO Snapshotting: 0x9f to /tmp/zookeeper/version-2/snapshot.9f (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-04-21 15:43:35,196] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2021-04-21 15:44:08,172] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2021-04-21 15:44:08,541] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2021-04-21 15:44:08,599] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2021-04-21 15:44:08,602] INFO starting (kafka.server.KafkaServer)
+[2021-04-21 15:44:08,603] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-04-21 15:44:08,626] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2021-04-21 15:44:08,631] INFO Client environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,631] INFO Client environment:host.name=10.0.0.29 (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,631] INFO Client environment:java.version=14.0.2 (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,631] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,631] INFO Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,631] INFO Client environment:java.class.path=/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/activation-1.1.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/aopalliance-repackaged-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/argparse4j-0.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/audience-annotations-0.5.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/commons-cli-1.4.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/commons-lang3-3.8.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-api-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-basic-auth-extension-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-file-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-json-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-mirror-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-mirror-client-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-runtime-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/connect-transforms-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/hk2-api-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/hk2-locator-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/hk2-utils-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-annotations-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-core-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-databind-2.10.5.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-dataformat-csv-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-datatype-jdk8-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-jaxrs-base-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-jaxrs-json-provider-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-module-jaxb-annotations-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-module-paranamer-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jackson-module-scala_2.13-2.10.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.annotation-api-1.3.5.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.inject-2.6.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.validation-api-2.0.2.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.ws.rs-api-2.1.6.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/javassist-3.25.0-GA.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/javassist-3.26.0-GA.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/javax.servlet-api-3.1.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jaxb-api-2.3.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-client-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-common-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-container-servlet-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-container-servlet-core-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-hk2-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-media-jaxb-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jersey-server-2.31.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-client-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-continuation-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-http-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-io-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-security-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-server-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-servlet-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-servlets-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jetty-util-9.4.33.v20201020.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/jopt-simple-5.0.4.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-clients-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-log4j-appender-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-raft-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-streams-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-streams-examples-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-streams-scala_2.13-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-streams-test-utils-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka-tools-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka_2.13-2.7.0-sources.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/kafka_2.13-2.7.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/log4j-1.2.17.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/lz4-java-1.7.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/maven-artifact-3.6.3.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/metrics-core-2.2.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-buffer-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-codec-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-common-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-handler-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-resolver-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-transport-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-transport-native-epoll-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/netty-transport-native-unix-common-4.1.51.Final.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/osgi-resource-locator-1.0.3.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/paranamer-2.8.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/plexus-utils-3.2.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/reflections-0.9.12.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/rocksdbjni-5.18.4.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-collection-compat_2.13-2.2.0.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-library-2.13.3.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/scala-reflect-2.13.3.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/slf4j-api-1.7.30.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/snappy-java-1.1.7.7.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/zookeeper-3.5.8.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/zookeeper-jute-3.5.8.jar:/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0/bin/../libs/zstd-jni-1.4.5-6.jar (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:java.library.path=/Users/rushi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:java.io.tmpdir=/var/folders/r6/hm5t3s1j75d9ymxk0kd36hjm0000gn/T/ (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:os.name=Mac OS X (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:os.arch=x86_64 (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:os.version=10.15.5 (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:user.name=rushi (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:user.home=/Users/rushi (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:user.dir=/Users/rushi/Desktop/Kafka-App/kafka_2.13-2.7.0 (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:os.memory.free=976MB (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,633] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,636] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@50029372 (org.apache.zookeeper.ZooKeeper)
+[2021-04-21 15:44:08,644] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2021-04-21 15:44:08,652] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2021-04-21 15:44:08,655] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2021-04-21 15:44:08,662] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-04-21 15:44:08,670] INFO Socket connection established, initiating session, client: /127.0.0.1:62183, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2021-04-21 15:44:08,678] INFO Creating new log file: log.a0 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2021-04-21 15:44:08,695] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000ce218600000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2021-04-21 15:44:08,697] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2021-04-21 15:44:08,941] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2021-04-21 15:44:09,146] INFO Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0). (kafka.server.FinalizedFeatureCache)
+[2021-04-21 15:44:09,150] INFO Cluster ID = -1FhMfDkTTyLXEPJXBcviA (kafka.server.KafkaServer)
+[2021-04-21 15:44:09,204] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = PLAINTEXT://localhost:9092
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.7-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.7-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-04-21 15:44:09,211] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = PLAINTEXT://localhost:9092
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.7-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.7-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-04-21 15:44:09,248] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2021-04-21 15:44:09,249] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2021-04-21 15:44:09,250] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2021-04-21 15:44:09,251] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2021-04-21 15:44:09,296] INFO Loading logs from log dirs ArraySeq(/tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,298] INFO Skipping recovery for all logs in /tmp/kafka-logs since clean shutdown file was found (kafka.log.LogManager)
+[2021-04-21 15:44:09,366] INFO [Log partition=__consumer_offsets-9, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,383] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-9, topic=__consumer_offsets, partition=9, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 75ms (1/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,388] INFO [Log partition=__consumer_offsets-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,390] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-0, topic=__consumer_offsets, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 6ms (2/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,393] INFO [Log partition=__consumer_offsets-7, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,395] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-7, topic=__consumer_offsets, partition=7, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 6ms (3/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,399] INFO [Log partition=__consumer_offsets-31, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,401] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-31, topic=__consumer_offsets, partition=31, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 5ms (4/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,405] INFO [Log partition=__consumer_offsets-36, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,407] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-36, topic=__consumer_offsets, partition=36, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 7ms (5/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,411] INFO [Log partition=__consumer_offsets-38, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,413] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-38, topic=__consumer_offsets, partition=38, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 5ms (6/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,415] INFO [Log partition=__consumer_offsets-6, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,417] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-6, topic=__consumer_offsets, partition=6, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (7/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,420] INFO [Log partition=__consumer_offsets-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,422] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-1, topic=__consumer_offsets, partition=1, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 5ms (8/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,424] INFO [Log partition=__consumer_offsets-8, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,426] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-8, topic=__consumer_offsets, partition=8, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (9/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,430] INFO [Log partition=__consumer_offsets-39, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,433] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-39, topic=__consumer_offsets, partition=39, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 7ms (10/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,437] INFO [Log partition=__consumer_offsets-37, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,439] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-37, topic=__consumer_offsets, partition=37, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 6ms (11/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,441] INFO [Log partition=__consumer_offsets-30, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,443] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-30, topic=__consumer_offsets, partition=30, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (12/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,446] INFO [Log partition=__consumer_offsets-12, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,447] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-12, topic=__consumer_offsets, partition=12, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 5ms (13/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,450] INFO [Log partition=__consumer_offsets-15, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,451] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-15, topic=__consumer_offsets, partition=15, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (14/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,454] INFO [Log partition=__consumer_offsets-23, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,455] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-23, topic=__consumer_offsets, partition=23, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (15/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,467] INFO [Log partition=__consumer_offsets-24, dir=/tmp/kafka-logs] Loading producer state till offset 1451 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,471] INFO [ProducerStateManager partition=__consumer_offsets-24] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-24/00000000000000001451.snapshot' (kafka.log.ProducerStateManager)
+[2021-04-21 15:44:09,480] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-24, topic=__consumer_offsets, partition=24, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=1451) with 1 segments in 25ms (16/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,485] INFO [Log partition=__consumer_offsets-48, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,487] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-48, topic=__consumer_offsets, partition=48, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 7ms (17/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,491] INFO [Log partition=__consumer_offsets-41, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,492] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-41, topic=__consumer_offsets, partition=41, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 5ms (18/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,495] INFO [Log partition=__consumer_offsets-46, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,496] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-46, topic=__consumer_offsets, partition=46, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (19/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,499] INFO [Log partition=__consumer_offsets-25, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,500] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-25, topic=__consumer_offsets, partition=25, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (20/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,503] INFO [Log partition=__consumer_offsets-22, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,504] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-22, topic=__consumer_offsets, partition=22, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (21/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,507] INFO [Log partition=__consumer_offsets-14, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,508] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-14, topic=__consumer_offsets, partition=14, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (22/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,510] INFO [Log partition=__consumer_offsets-13, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,512] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-13, topic=__consumer_offsets, partition=13, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (23/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,515] INFO [Log partition=__consumer_offsets-47, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,517] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-47, topic=__consumer_offsets, partition=47, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 5ms (24/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,520] INFO [Log partition=__consumer_offsets-40, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,521] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-40, topic=__consumer_offsets, partition=40, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (25/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,524] INFO [Log partition=__consumer_offsets-49, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,525] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-49, topic=__consumer_offsets, partition=49, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (26/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,528] INFO [Log partition=__consumer_offsets-35, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,529] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-35, topic=__consumer_offsets, partition=35, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (27/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,531] INFO [Log partition=__consumer_offsets-32, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,532] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-32, topic=__consumer_offsets, partition=32, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (28/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,535] INFO [Log partition=__consumer_offsets-4, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,536] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-4, topic=__consumer_offsets, partition=4, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (29/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,539] INFO [Log partition=__consumer_offsets-3, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,540] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-3, topic=__consumer_offsets, partition=3, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (30/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,543] INFO [Log partition=__consumer_offsets-33, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,544] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-33, topic=__consumer_offsets, partition=33, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (31/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,547] INFO [Log partition=__consumer_offsets-34, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,549] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-34, topic=__consumer_offsets, partition=34, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (32/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,551] INFO [Log partition=__consumer_offsets-2, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,553] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-2, topic=__consumer_offsets, partition=2, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (33/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,556] INFO [Log partition=__consumer_offsets-5, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,556] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-5, topic=__consumer_offsets, partition=5, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (34/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,562] INFO [Log partition=t1-0, dir=/tmp/kafka-logs] Loading producer state till offset 359 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,563] INFO [ProducerStateManager partition=t1-0] Loading producer state from snapshot file '/tmp/kafka-logs/t1-0/00000000000000000359.snapshot' (kafka.log.ProducerStateManager)
+[2021-04-21 15:44:09,564] INFO Completed load of Log(dir=/tmp/kafka-logs/t1-0, topic=t1, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=359) with 1 segments in 8ms (35/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,568] INFO [Log partition=__consumer_offsets-45, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,569] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-45, topic=__consumer_offsets, partition=45, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (36/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,571] INFO [Log partition=__consumer_offsets-42, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,572] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-42, topic=__consumer_offsets, partition=42, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (37/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,575] INFO [Log partition=__consumer_offsets-29, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,576] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-29, topic=__consumer_offsets, partition=29, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (38/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,579] INFO [Log partition=__consumer_offsets-16, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,580] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-16, topic=__consumer_offsets, partition=16, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (39/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,582] INFO [Log partition=__consumer_offsets-11, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,583] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-11, topic=__consumer_offsets, partition=11, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (40/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,586] INFO [Log partition=__consumer_offsets-18, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,587] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-18, topic=__consumer_offsets, partition=18, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (41/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,591] INFO [Log partition=__consumer_offsets-27, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,592] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-27, topic=__consumer_offsets, partition=27, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 5ms (42/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,595] INFO [Log partition=__consumer_offsets-20, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,596] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-20, topic=__consumer_offsets, partition=20, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (43/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,599] INFO [Log partition=__consumer_offsets-43, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,600] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-43, topic=__consumer_offsets, partition=43, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (44/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,603] INFO [Log partition=__consumer_offsets-44, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,604] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-44, topic=__consumer_offsets, partition=44, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (45/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,606] INFO [Log partition=__consumer_offsets-21, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,607] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-21, topic=__consumer_offsets, partition=21, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (46/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,609] INFO [Log partition=__consumer_offsets-19, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,610] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-19, topic=__consumer_offsets, partition=19, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (47/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,613] INFO [Log partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,615] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-26, topic=__consumer_offsets, partition=26, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 5ms (48/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,617] INFO [Log partition=__consumer_offsets-10, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,618] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-10, topic=__consumer_offsets, partition=10, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 4ms (49/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,621] INFO [Log partition=__consumer_offsets-28, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,621] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-28, topic=__consumer_offsets, partition=28, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (50/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,624] INFO [Log partition=__consumer_offsets-17, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-04-21 15:44:09,625] INFO Completed load of Log(dir=/tmp/kafka-logs/__consumer_offsets-17, topic=__consumer_offsets, partition=17, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 3ms (51/51 loaded in /tmp/kafka-logs) (kafka.log.LogManager)
+[2021-04-21 15:44:09,626] INFO Loaded 51 logs in 330ms. (kafka.log.LogManager)
+[2021-04-21 15:44:09,635] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2021-04-21 15:44:09,635] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2021-04-21 15:44:09,998] INFO Created ConnectionAcceptRate sensor, quotaLimit=2147483647 (kafka.network.ConnectionQuotas)
+[2021-04-21 15:44:09,999] INFO Created ConnectionAcceptRate-PLAINTEXT sensor, quotaLimit=2147483647 (kafka.network.ConnectionQuotas)
+[2021-04-21 15:44:10,001] INFO Updated PLAINTEXT max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2021-04-21 15:44:10,005] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2021-04-21 15:44:10,036] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2021-04-21 15:44:10,064] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-21 15:44:10,064] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-21 15:44:10,065] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-21 15:44:10,066] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-21 15:44:10,079] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2021-04-21 15:44:10,079] INFO [broker-0-to-controller-send-thread]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2021-04-21 15:44:10,119] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2021-04-21 15:44:10,152] INFO Stat of the created znode at /brokers/ids/0 is: 174,174,1619034250130,1619034250130,1,0,0,72071759249014784,204,0,174
+ (kafka.zk.KafkaZkClient)
+[2021-04-21 15:44:10,153] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://localhost:9092, czxid (broker epoch): 174 (kafka.zk.KafkaZkClient)
+[2021-04-21 15:44:10,223] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-21 15:44:10,228] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-21 15:44:10,229] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-21 15:44:10,259] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:44:10,260] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:44:10,281] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:2000,blockEndProducerId:2999) by writing to Zk with path version 3 (kafka.coordinator.transaction.ProducerIdManager)
+[2021-04-21 15:44:10,300] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2021-04-21 15:44:10,301] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2021-04-21 15:44:10,301] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2021-04-21 15:44:10,322] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-21 15:44:10,342] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2021-04-21 15:44:10,371] INFO [SocketServer brokerId=0] Starting socket server acceptors and processors (kafka.network.SocketServer)
+[2021-04-21 15:44:10,375] INFO [SocketServer brokerId=0] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2021-04-21 15:44:10,375] INFO [SocketServer brokerId=0] Started socket server acceptors and processors (kafka.network.SocketServer)
+[2021-04-21 15:44:10,380] INFO Kafka version: 2.7.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2021-04-21 15:44:10,380] INFO Kafka commitId: 448719dc99a19793 (org.apache.kafka.common.utils.AppInfoParser)
+[2021-04-21 15:44:10,380] INFO Kafka startTimeMs: 1619034250375 (org.apache.kafka.common.utils.AppInfoParser)
+[2021-04-21 15:44:10,381] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2021-04-21 15:44:10,441] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions HashSet(__consumer_offsets-22, __consumer_offsets-30, __consumer_offsets-25, __consumer_offsets-35, __consumer_offsets-37, __consumer_offsets-38, __consumer_offsets-13, t1-0, __consumer_offsets-8, __consumer_offsets-21, __consumer_offsets-4, __consumer_offsets-27, __consumer_offsets-7, __consumer_offsets-9, __consumer_offsets-46, __consumer_offsets-41, __consumer_offsets-33, __consumer_offsets-23, __consumer_offsets-49, __consumer_offsets-47, __consumer_offsets-16, __consumer_offsets-28, __consumer_offsets-31, __consumer_offsets-36, __consumer_offsets-42, __consumer_offsets-3, __consumer_offsets-18, __consumer_offsets-15, __consumer_offsets-24, __consumer_offsets-17, __consumer_offsets-48, __consumer_offsets-19, __consumer_offsets-11, __consumer_offsets-2, __consumer_offsets-43, __consumer_offsets-6, __consumer_offsets-14, __consumer_offsets-20, __consumer_offsets-0, __consumer_offsets-44, __consumer_offsets-39, __consumer_offsets-12, __consumer_offsets-45, __consumer_offsets-1, __consumer_offsets-5, __consumer_offsets-26, __consumer_offsets-29, __consumer_offsets-34, __consumer_offsets-10, __consumer_offsets-32, __consumer_offsets-40) (kafka.server.ReplicaFetcherManager)
+[2021-04-21 15:44:10,448] INFO [Partition __consumer_offsets-3 broker=0] Log loaded for partition __consumer_offsets-3 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,456] INFO [Partition __consumer_offsets-18 broker=0] Log loaded for partition __consumer_offsets-18 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,457] INFO [Partition __consumer_offsets-41 broker=0] Log loaded for partition __consumer_offsets-41 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,458] INFO [Partition __consumer_offsets-10 broker=0] Log loaded for partition __consumer_offsets-10 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,458] INFO [Partition __consumer_offsets-33 broker=0] Log loaded for partition __consumer_offsets-33 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,459] INFO [Partition __consumer_offsets-48 broker=0] Log loaded for partition __consumer_offsets-48 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,460] INFO [Partition __consumer_offsets-19 broker=0] Log loaded for partition __consumer_offsets-19 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,461] INFO [Partition __consumer_offsets-34 broker=0] Log loaded for partition __consumer_offsets-34 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,462] INFO [Partition __consumer_offsets-4 broker=0] Log loaded for partition __consumer_offsets-4 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,463] INFO [Partition __consumer_offsets-11 broker=0] Log loaded for partition __consumer_offsets-11 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,464] INFO [Partition __consumer_offsets-26 broker=0] Log loaded for partition __consumer_offsets-26 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,465] INFO [Partition __consumer_offsets-49 broker=0] Log loaded for partition __consumer_offsets-49 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,467] INFO [Partition __consumer_offsets-39 broker=0] Log loaded for partition __consumer_offsets-39 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,470] INFO [Partition __consumer_offsets-9 broker=0] Log loaded for partition __consumer_offsets-9 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,471] INFO [Partition __consumer_offsets-24 broker=0] Log loaded for partition __consumer_offsets-24 with initial high watermark 1451 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,471] INFO [Partition __consumer_offsets-31 broker=0] Log loaded for partition __consumer_offsets-31 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,472] INFO [Partition __consumer_offsets-46 broker=0] Log loaded for partition __consumer_offsets-46 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,473] INFO [Partition __consumer_offsets-1 broker=0] Log loaded for partition __consumer_offsets-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,473] INFO [Partition __consumer_offsets-16 broker=0] Log loaded for partition __consumer_offsets-16 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,474] INFO [Partition __consumer_offsets-2 broker=0] Log loaded for partition __consumer_offsets-2 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,475] INFO [Partition __consumer_offsets-25 broker=0] Log loaded for partition __consumer_offsets-25 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,476] INFO [Partition __consumer_offsets-40 broker=0] Log loaded for partition __consumer_offsets-40 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,477] INFO [Partition __consumer_offsets-47 broker=0] Log loaded for partition __consumer_offsets-47 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,478] INFO [Partition __consumer_offsets-17 broker=0] Log loaded for partition __consumer_offsets-17 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,479] INFO [Partition __consumer_offsets-32 broker=0] Log loaded for partition __consumer_offsets-32 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,480] INFO [Partition __consumer_offsets-37 broker=0] Log loaded for partition __consumer_offsets-37 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,481] INFO [Partition __consumer_offsets-7 broker=0] Log loaded for partition __consumer_offsets-7 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,481] INFO [Partition __consumer_offsets-22 broker=0] Log loaded for partition __consumer_offsets-22 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,482] INFO [Partition __consumer_offsets-29 broker=0] Log loaded for partition __consumer_offsets-29 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,483] INFO [broker-0-to-controller-send-thread]: Recorded new controller, from now on will use broker 0 (kafka.server.BrokerToControllerRequestThread)
+[2021-04-21 15:44:10,484] INFO [Partition __consumer_offsets-44 broker=0] Log loaded for partition __consumer_offsets-44 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,485] INFO [Partition __consumer_offsets-14 broker=0] Log loaded for partition __consumer_offsets-14 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,486] INFO [Partition __consumer_offsets-23 broker=0] Log loaded for partition __consumer_offsets-23 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,487] INFO [Partition __consumer_offsets-38 broker=0] Log loaded for partition __consumer_offsets-38 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,488] INFO [Partition __consumer_offsets-8 broker=0] Log loaded for partition __consumer_offsets-8 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,489] INFO [Partition __consumer_offsets-45 broker=0] Log loaded for partition __consumer_offsets-45 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,490] INFO [Partition __consumer_offsets-15 broker=0] Log loaded for partition __consumer_offsets-15 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,490] INFO [Partition t1-0 broker=0] Log loaded for partition t1-0 with initial high watermark 359 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,491] INFO [Partition __consumer_offsets-30 broker=0] Log loaded for partition __consumer_offsets-30 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,491] INFO [Partition __consumer_offsets-0 broker=0] Log loaded for partition __consumer_offsets-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,492] INFO [Partition __consumer_offsets-35 broker=0] Log loaded for partition __consumer_offsets-35 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,493] INFO [Partition __consumer_offsets-5 broker=0] Log loaded for partition __consumer_offsets-5 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,494] INFO [Partition __consumer_offsets-20 broker=0] Log loaded for partition __consumer_offsets-20 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,495] INFO [Partition __consumer_offsets-27 broker=0] Log loaded for partition __consumer_offsets-27 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,495] INFO [Partition __consumer_offsets-42 broker=0] Log loaded for partition __consumer_offsets-42 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,496] INFO [Partition __consumer_offsets-12 broker=0] Log loaded for partition __consumer_offsets-12 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,497] INFO [Partition __consumer_offsets-21 broker=0] Log loaded for partition __consumer_offsets-21 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,497] INFO [Partition __consumer_offsets-36 broker=0] Log loaded for partition __consumer_offsets-36 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,498] INFO [Partition __consumer_offsets-6 broker=0] Log loaded for partition __consumer_offsets-6 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,499] INFO [Partition __consumer_offsets-43 broker=0] Log loaded for partition __consumer_offsets-43 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,499] INFO [Partition __consumer_offsets-13 broker=0] Log loaded for partition __consumer_offsets-13 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,500] INFO [Partition __consumer_offsets-28 broker=0] Log loaded for partition __consumer_offsets-28 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-04-21 15:44:10,504] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-3 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-18 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-41 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-10 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-33 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-48 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-19 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-34 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-4 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-11 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,505] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-26 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-49 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-39 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-9 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-24 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-31 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-46 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-1 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-16 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-2 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-25 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-40 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-47 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-17 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-32 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-37 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-7 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-22 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-29 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-44 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-14 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-23 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-38 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-8 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-45 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-15 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,506] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-30 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-0 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-35 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-5 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-20 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-27 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-42 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-12 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-21 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-36 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-6 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-43 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-13 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,507] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-28 (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,508] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-3 in 3 milliseconds, of which 1 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,508] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-18 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,508] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-41 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,508] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-10 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,508] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-33 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,508] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-48 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,508] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-19 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,508] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-34 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,509] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-4 in 4 milliseconds, of which 4 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,509] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-11 in 4 milliseconds, of which 4 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,509] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-26 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,509] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-49 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,509] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-39 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,509] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-9 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,539] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-d935081f-ce88-42ce-b7a0-47cf92dc6327, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-d935081f-ce88-42ce-b7a0-47cf92dc6327 at generation 1. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,556] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-7de950b7-fa4c-4ed6-97f3-26c3cb0f5883, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-7de950b7-fa4c-4ed6-97f3-26c3cb0f5883 at generation 2. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,556] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-06320ef7-a072-40cc-8c24-474dbddfaabd, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-06320ef7-a072-40cc-8c24-474dbddfaabd at generation 4. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,557] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-dd240fff-b9b8-4f9e-8b80-8def954ad1cc, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-dd240fff-b9b8-4f9e-8b80-8def954ad1cc at generation 5. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,557] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-98871b09-c570-467b-8180-be60f5e89355, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-98871b09-c570-467b-8180-be60f5e89355 at generation 7. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,557] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-af955462-e34c-40af-86a9-eedd03dac997, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-af955462-e34c-40af-86a9-eedd03dac997 at generation 8. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,557] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-e8f0a0cb-fdd1-4c30-a1bc-e8e770787ca2, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-e8f0a0cb-fdd1-4c30-a1bc-e8e770787ca2 at generation 10. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,557] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-8985cfc9-b409-4f72-8a51-94d32ce8d20d, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-8985cfc9-b409-4f72-8a51-94d32ce8d20d at generation 12. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,558] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-04d412b1-9816-47cf-9371-25e4e2d3bf21, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-04d412b1-9816-47cf-9371-25e4e2d3bf21 at generation 13. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,558] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-52844167-e82d-42d2-ba9b-1de4fee03464, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-52844167-e82d-42d2-ba9b-1de4fee03464 at generation 14. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,558] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-6c1888bf-2279-4310-8587-8ef9ac913d2a, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-6c1888bf-2279-4310-8587-8ef9ac913d2a at generation 15. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,559] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-ba42926c-77df-4fd5-8ce2-8498c6415e47, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-ba42926c-77df-4fd5-8ce2-8498c6415e47 at generation 16. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,559] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-adbb7731-dcd0-40ec-9f68-a44622616085, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-adbb7731-dcd0-40ec-9f68-a44622616085 at generation 17. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,560] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-5b9df098-9512-4fb9-876e-44e75b5da3fe, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-5b9df098-9512-4fb9-876e-44e75b5da3fe at generation 19. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,560] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-0f8074d4-3838-4a9f-8e97-fc6ec37efbee, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-0f8074d4-3838-4a9f-8e97-fc6ec37efbee at generation 21. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,560] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-a9c7940e-113f-4934-8750-7f65a1defc4e, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-a9c7940e-113f-4934-8750-7f65a1defc4e at generation 23. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,560] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-d847e9b4-8bd1-4b2d-91d8-ab2a300bb4bd, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-d847e9b4-8bd1-4b2d-91d8-ab2a300bb4bd at generation 24. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,560] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-5f4e91d8-be57-4089-ab15-0d68b7d59a65, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-5f4e91d8-be57-4089-ab15-0d68b7d59a65 at generation 26. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,561] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-feee14d4-b9a9-41d0-827f-f64cbd516f49, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-feee14d4-b9a9-41d0-827f-f64cbd516f49 at generation 28. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,561] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-84995617-3365-422a-8101-36639c00c235, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-84995617-3365-422a-8101-36639c00c235 at generation 29. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,562] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-33814273-f754-489a-b671-7188bed67eda, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-33814273-f754-489a-b671-7188bed67eda at generation 30. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,562] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-a9b7f279-2385-4aba-96c6-47bffb207e18, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-a9b7f279-2385-4aba-96c6-47bffb207e18 at generation 31. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,562] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-1d899841-ea4e-4c79-9566-e00bba38bf02, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-1d899841-ea4e-4c79-9566-e00bba38bf02 at generation 32. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,563] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-44083105-149c-435e-a8a5-966ceb6b7c8e, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-44083105-149c-435e-a8a5-966ceb6b7c8e at generation 33. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,564] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-b1c533dd-ba87-4e52-85f1-5d89fdb54aba, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-b1c533dd-ba87-4e52-85f1-5d89fdb54aba at generation 34. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,564] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-7206905d-f78d-4d70-9afe-b9b6f0469bb4, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-7206905d-f78d-4d70-9afe-b9b6f0469bb4 at generation 35. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,564] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-3e2ac06f-93b7-4e4c-b563-13cfba4dbd0c, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-3e2ac06f-93b7-4e4c-b563-13cfba4dbd0c at generation 36. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,564] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-3c400a9e-39c9-4bf3-bb59-9b35d340ceb0, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-3c400a9e-39c9-4bf3-bb59-9b35d340ceb0 at generation 38. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,564] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-9c270558-4696-49d4-ae08-4becac061512, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-9c270558-4696-49d4-ae08-4becac061512 at generation 39. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,565] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-a5605f90-ac25-477a-be40-a0e7b41111f8, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-a5605f90-ac25-477a-be40-a0e7b41111f8 at generation 40. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,565] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-10c6f204-d8f5-44df-897e-b99c9c7c5114, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-10c6f204-d8f5-44df-897e-b99c9c7c5114 at generation 41. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,565] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-49fd6ba9-d359-4bde-9799-b86ee4c98dc4, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-49fd6ba9-d359-4bde-9799-b86ee4c98dc4 at generation 42. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,565] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-59792818-d896-46b0-a98b-fb753f57bf83, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-59792818-d896-46b0-a98b-fb753f57bf83 at generation 43. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,566] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-7774c11a-6b68-41a8-8d00-aa278e5f1400, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-7774c11a-6b68-41a8-8d00-aa278e5f1400 at generation 45. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,566] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-4384a4dd-0ed1-444d-94cf-50078fc9ac19, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-4384a4dd-0ed1-444d-94cf-50078fc9ac19 at generation 46. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,566] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-7213e063-2eec-42d8-ae63-f961721cb2ec, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-7213e063-2eec-42d8-ae63-f961721cb2ec at generation 48. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,566] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-36ef2af1-3a3a-42fe-8224-0c86270fb1eb, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-36ef2af1-3a3a-42fe-8224-0c86270fb1eb at generation 49. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,567] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-412ab861-9960-4163-8254-7ee6e30dc047, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-412ab861-9960-4163-8254-7ee6e30dc047 at generation 50. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,567] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-a0fc402e-07d0-4d13-acd6-a4023f2740cf, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-a0fc402e-07d0-4d13-acd6-a4023f2740cf at generation 52. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,567] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-7af16a9a-c484-462a-9895-1c94e926ed98, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-7af16a9a-c484-462a-9895-1c94e926ed98 at generation 53. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,567] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-cf20ad56-36e0-4d11-93ab-7672b600ec1d, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-cf20ad56-36e0-4d11-93ab-7672b600ec1d at generation 55. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,567] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-60e2262b-3ede-4a1e-9b90-f586b45f9634, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-60e2262b-3ede-4a1e-9b90-f586b45f9634 at generation 56. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,568] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-05424468-ef0a-449a-87ff-177be4134904, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-05424468-ef0a-449a-87ff-177be4134904 at generation 58. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,568] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-f76f3190-3255-4b00-a0d8-193aa61afc69, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-f76f3190-3255-4b00-a0d8-193aa61afc69 at generation 60. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,568] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-2e8d3e38-4eb6-451d-aae1-06d37c2c923e, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-2e8d3e38-4eb6-451d-aae1-06d37c2c923e at generation 62. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,569] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-cf404d53-d5ea-4c79-a808-84b16c253d95, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-cf404d53-d5ea-4c79-a808-84b16c253d95 at generation 63. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,569] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-f707af56-3f7c-4a6b-8b55-2a966fac2ff6, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-f707af56-3f7c-4a6b-8b55-2a966fac2ff6 at generation 65. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,569] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-6b9a280d-1982-49ff-be47-b2d6fb0b55f0, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-6b9a280d-1982-49ff-be47-b2d6fb0b55f0 at generation 67. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,569] INFO Static member MemberMetadata(memberId=kafka-python-2.0.2-7fadd126-d785-4aca-8c54-57800c96a85f, groupInstanceId=Some(null), clientId=kafka-python-2.0.2, clientHost=/0:0:0:0:0:0:0:1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range), ).groupInstanceId of group test-1 loaded with member id kafka-python-2.0.2-7fadd126-d785-4aca-8c54-57800c96a85f at generation 68. (kafka.coordinator.group.GroupMetadata$)
+[2021-04-21 15:44:10,573] INFO [GroupCoordinator 0]: Loading group metadata for test-1 with generation 69 (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:44:10,574] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-24 in 68 milliseconds, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,574] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-31 in 68 milliseconds, of which 68 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,574] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-46 in 68 milliseconds, of which 68 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,574] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-1 in 68 milliseconds, of which 68 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,574] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-16 in 68 milliseconds, of which 68 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,574] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-2 in 68 milliseconds, of which 68 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,575] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-25 in 69 milliseconds, of which 68 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,575] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-40 in 69 milliseconds, of which 69 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,575] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-47 in 69 milliseconds, of which 69 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,575] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-17 in 69 milliseconds, of which 69 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,575] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-32 in 69 milliseconds, of which 69 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,575] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-37 in 69 milliseconds, of which 69 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,575] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-7 in 69 milliseconds, of which 69 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,575] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-22 in 69 milliseconds, of which 69 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-29 in 70 milliseconds, of which 69 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-44 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-14 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-23 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-38 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-8 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-45 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-15 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,576] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-30 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-0 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-35 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-5 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-20 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-27 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-42 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-12 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,577] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-21 in 70 milliseconds, of which 70 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,578] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-36 in 71 milliseconds, of which 71 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,578] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-6 in 71 milliseconds, of which 71 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,578] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-43 in 71 milliseconds, of which 71 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,578] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-13 in 71 milliseconds, of which 71 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:10,578] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-28 in 71 milliseconds, of which 71 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-21 15:44:29,392] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-472a320f-f5b3-4cd7-8364-b02a7a76c099 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:44:29,398] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 69 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-472a320f-f5b3-4cd7-8364-b02a7a76c099 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:44:29,401] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 70 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:44:29,408] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 70 (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:44:59,336] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Stable state. Created a new member id kafka-python-2.0.2-da9b2889-2f6d-47d6-8819-fe22a3496b6b for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:44:59,337] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 70 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-da9b2889-2f6d-47d6-8819-fe22a3496b6b with group instance id None) (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:45:00,536] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-472a320f-f5b3-4cd7-8364-b02a7a76c099 in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:45:00,538] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 71 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:45:00,539] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 71 (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:46:07,651] INFO [GroupCoordinator 0]: Member kafka-python-2.0.2-da9b2889-2f6d-47d6-8819-fe22a3496b6b in group test-1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:46:07,651] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 71 (__consumer_offsets-24) (reason: removing member kafka-python-2.0.2-da9b2889-2f6d-47d6-8819-fe22a3496b6b on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:46:07,652] INFO [GroupCoordinator 0]: Group test-1 with generation 72 is now empty (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:46:09,328] INFO [GroupCoordinator 0]: Dynamic Member with unknown member id joins group test-1 in Empty state. Created a new member id kafka-python-2.0.2-519c93f7-85a0-4e95-9d4f-2c23972eefb3 for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:46:09,328] INFO [GroupCoordinator 0]: Preparing to rebalance group test-1 in state PreparingRebalance with old generation 72 (__consumer_offsets-24) (reason: Adding new member kafka-python-2.0.2-519c93f7-85a0-4e95-9d4f-2c23972eefb3 with group instance id None) (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:46:09,329] INFO [GroupCoordinator 0]: Stabilized group test-1 generation 73 (__consumer_offsets-24) (kafka.coordinator.group.GroupCoordinator)
+[2021-04-21 15:46:09,331] INFO [GroupCoordinator 0]: Assignment received from leader for group test-1 for generation 73 (kafka.coordinator.group.GroupCoordinator)
