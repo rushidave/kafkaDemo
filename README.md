@@ -7,6 +7,16 @@ Prereq:
 
 To run:
   1) change server.properties file to:
-      
-  3) bin/zookeeper-server-start.sh config/zookeeper.properties
-  4) JMX_PORT=8004 bin/kafka-server-start.sh config/server.properties  
+      add line/uncomment -> advertised.listeners=PLAINTEXT://localhost:9092
+     
+  2) bin/zookeeper-server-start.sh config/zookeeper.properties
+ 
+  3) JMX_PORT=8004 bin/kafka-server-start.sh config/server.properties  
+
+  4) Run python3 producer.py
+  
+  5) Run python3 consumer.py
+ 
+ 
+
+I tried using Docker, however, docker results into menssages not being sent to Kafka Topic. 
